@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/list.css"/>
+	<body>
+		<section class="tou"></section>
+		<main>
+			<div class="nav">
+				<p class="shouye">
+					<b>&gt;</b>
+					当前位置 :
+					<a href="index.html">首页</a>
+					>
+					<a href="">女士手表</a>
+				</p>
+				<p class="fx">
+					分享
+					<i class="i1"></i>
+					<a href="##">新浪微博</a>
+					<i class="i2"></i>
+					<a href="##">腾讯微博</a>
+					<i class="i3"></i>
+					<a href="##">人人网</a>
+				</p>
+			</div>
+			<div class="screen">
+				<h3>
+					商品筛选
+					<span>收起列表↑</span>
+				</h3>
+				<div class="lb">
+					<p>
+						<span>全部品牌：</span>
+						<u>全部</u>
+						<a href="##">宾伦BINLUN</a>
+					</p>
+					<p>
+						<span>表带材质：</span>
+						<u>全部</u>
+						<a href="##">PU皮革</a>
+						<a href="##">皮带</a>
+						<a href="##">精钢</a>
+						<a href="##">钨钢</a>
+						<a href="##">陶瓷</a>
+					</p>
+				</div>
+			</div>
+			
+			<div id="goods">
+				<div class="paixu">
+					<div class="pl">
+						<span>排序</span>
+						<a href="##">销量</a>
+						<a href="##">价格</a>
+						<a href="##">评论数</a>
+						<a href="##">上架时间</a>
+					</div>
+					<div class="pr">
+						<span>共<i></i>个商品</span>
+						<p>
+							<b>上一页</b>
+							<b>下一页</b>
+						</p>
+					</div>
+				</div>
+				<ul class="list">
+					<li>
+						<img src="img/goods/01.jpg"/>
+						<span>【宾伦】玫瑰红防水钨钢女士手表 女士石英手表-BL0034L-WCC</span>
+						<p>￥399</p>
+						<u class="btn">加入购物车</u><b>关注</b>
+					</li>
+				</ul>
+			</div>
+		</main>
+		<section class="wei"></section>
+	</body>
+	<script src="libs/jquery.1.12.4.js"></script>
+	<script src="js/list.js"></script>
+</html>

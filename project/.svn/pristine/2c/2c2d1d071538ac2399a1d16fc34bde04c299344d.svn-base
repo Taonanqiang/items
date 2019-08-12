@@ -1,0 +1,50 @@
+;(function($){
+	
+//轮播图功能
+$("#banner .ban").banner({
+    items:$(".ban").find("img"),        //必传
+    list:true,
+    index:0,                                //可选，默认0
+})
+
+//楼梯功能
+	$(".floor1").children("i").click(function(){
+		$("html").stop().animate({
+            scrollTop:$('.f1').eq($(this).index()).offset().top
+         })
+	})
+
+	$(".floor2").children(".i6").click(function(){
+		$("html").stop().animate({
+            scrollTop:0
+         })
+	})
+	
+//选项卡
+	$(function(){
+		$('.xuan').find(".tab").children("li").click(function(){
+			$(this).siblings().css({
+				background:"#f5f5f5",
+    			color:"#000"
+			})
+    		$(this).css({
+    			background:"red",
+    			color:"#fff"
+    		})
+    		$('.xuan').find(".sh").find("ul").css('display','none')
+    		$('.xuan').find(".sh").find("ul").eq($(this).index()).css('display','block')
+		})
+	})
+
+//三级菜单
+$(function(){
+	$("#dao").find("dd").mouseover(function(){
+//		$(this)..css({display:"none"})
+		$(this).find(".cd2").css({display:"block"})
+	})
+	$("#dao").find("dd").mouseout(function(){
+//		$(this)..css({display:"none"})
+		$(this).find(".cd2").css({display:"none"})
+	})
+})
+})(jQuery);

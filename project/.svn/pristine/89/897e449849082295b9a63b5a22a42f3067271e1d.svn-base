@@ -1,0 +1,5 @@
+;(function($){
+	$(".tou").load("http://localhost/taocaixia/head.html #tou")
+	$(".wei").load("http://localhost/taocaixia/head.html #wei")
+	
+})(jQuery);

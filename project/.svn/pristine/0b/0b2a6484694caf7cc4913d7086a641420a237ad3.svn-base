@@ -1,0 +1,100 @@
+;(function(){
+
+		class Magnifier{
+			constructor(options){
+				this.picWidth = options.picWidth;
+				this.picHeight = options.picHeight;
+				this.scale = options.scale;
+				this.showScale = options.showScale;
+				this.showTop = options.showTop;
+				this.showLeft = options.showLeft;
+				this.sBox =$(".s_box");
+				this.span = $(".s_box").find("span");
+				this.sImg = $(".s_box").find("img");
+				this.bBox = $(".b_box");
+				this.bImg = $(".b_box").find("img");
+				this.init();    
+			}
+			init(){
+				this.sBox.css({
+					position:"relative",
+					width:this.picWidth,
+					height:this.picHeight,
+				}) 
+				this.sImg.css({
+					width:this.picWidth,
+					height:this.picHeight+"px",
+				})
+				this.span({
+					width: this.picWidth/this.scale*this.showScale,
+					height:this.picHeight/this.scale*this.showScale,
+					position:" absolute",
+					left: 0,
+					top: 0,
+					background:"rgba(200,200,200,.6)",
+					display:"none"
+				})
+				this.bBox.css({
+					width:this.picWidth*this.showScale,
+					height:this.picHeight*this.showScale,
+					position: "absolute",
+					left:this.showLeft,
+					top:this.showTop,
+					overflow:" hidden",
+					display:"none"
+				})
+				this.bImg.css({
+					width:this.picWidth*this.scale,
+					height:this.picHeight*this.scale,
+					position: "absolute"
+				}) 
+				var that = this;
+				this.sBox.on("mouseover",function(){
+					that.show();
+				})
+		
+				this.sBox.on("mouseout",function(){
+						that.hide();
+				})
+		
+				this.sBox.on("mousemove",function(eve){
+					var e = eve || window.event;
+					that.move(e);
+				})
+			}
+		
+			move(e){
+				var l = e.pageX - this.sBox[0].offsetLeft - this.span[0].offsetWidth/2;
+				var t = e.pageY - this.sBox[0].offsetTop - this.span[0].offsetHeight/2;
+				
+				if(l<0) l=0;
+				if(t<0) t=0;
+				if(l > this.sBox[0].offsetWidth - this.span[0].offsetWidth){
+					l = this.sBox[0].offsetWidth - this.span[0].offsetWidth;
+				}
+				if(t > this.sBox[0].offsetHeight - this.span[0].offsetHeight){
+					t = this.sBox[0].offsetHeight - this.span[0].offsetHeight;
+				}
+				this.span[0].style.left = l + "px";
+				this.span[0].style.top = t + "px";
+				var x = l/(this.sBox[0].offsetWidth - this.span[0].offsetWidth);
+				var y = t/(this.sBox[0].offsetHeight - this.span[0].offsetHeight);
+				
+				this.bImg[0].style.left = x * -(this.bImg[0].offsetWidth-this.bBox[0].offsetWidth) + "px";
+				this.bImg[0].style.top = y * -(this.bImg[0].offsetHeight-this.bBox[0].offsetHeight) + "px";
+			}
+		
+			show(){
+				this.span[0].style.display = "block";
+				this.bBox[0].style.display = "block";
+			}
+		
+			hide(){
+				this.span[0].style.display = "none";
+				this.bBox[0].style.display = "none";
+			}
+		}
+		new Magnifier(options);
+	
+
+})(jQuery);

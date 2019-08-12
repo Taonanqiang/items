@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户中心</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<section class="tou"></section>
+		<main>
+			<div class="title">
+				<span>当前位置：</span>
+				<a href="index.html">首页</a>
+				<span>&gt;&nbsp;用户中心</span>
+			</div>
+			<div class="form">
+				<div class="login">
+					<img src="img/shangcheng.png" class="tip"/>
+					<div class="denglu">
+						<p>
+							<span>用户名：</span>
+							<input type="text" name="" class="user" value="" />
+						</p>
+						<p>
+							<span>密 码：</span>
+							<input type="password" name="" class="pass" value="" />
+							<a href="##">忘记密码？</a>
+						</p>
+						<p class="check">
+							<label for="ff"><input type="checkbox" id="ff"/>请保存我这次的登录信息</label>
+						</p>
+						<input type="button" name="dl" class="dl btn" value="" />
+						<b class="ss"></b>
+					</div>
+				</div>
+				<div class="register">
+					<img src="img/huiyuan.png" class="tip"/>
+					<form class="zhuce">
+						<p>
+							<span>用 户 名：</span>
+							<input type="text" name="" class="user1" required=ture;/>
+							<i>*</i>
+						</p>
+						<p>
+							<span>常用邮箱：</span>
+							<input type="email" name="" class="email"/>
+							<i>*</i>
+						</p>
+						<p>
+							<span>设置密码：</span>
+							<input type="password" name="" class="pass1"/>
+							<i>*</i>
+						</p>
+						<p>
+							<span>确认密码：</span>
+							<input type="password" name="" class="pass2"/>
+							<i>*</i>
+						</p>
+						<p class="check">
+							<label for="ff"><input type="checkbox" id="ff1"/>我看过并已接受用户协议</label>
+						</p>
+						<input type="button" name="zc" class="btn zc" value="" />
+						<b></b>
+					</form>
+				</div>
+			</div>
+		</main>
+		<section class="wei"></section>
+	</body>
+	<script src="libs/jquery.1.12.4.js"></script>
+	<script src="libs/jquery.validate.js"></script>
+	<script src="libs/jquery.validate.messages_zh.js"></script>
+	<script src="js/login.js"></script>
+	
+</html>

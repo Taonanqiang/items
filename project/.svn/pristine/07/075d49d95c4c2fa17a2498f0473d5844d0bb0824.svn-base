@@ -1,0 +1,97 @@
+;(function($){
+	
+//轮播图功能
+$("#banner .ban").banner({
+    items:$(".ban").find("img"),        //必传
+    list:true,
+    index:0,                                //可选，默认0
+})
+
+//楼梯功能
+	$(".floor1").children("i").click(function(){
+		$("html").stop().animate({
+            scrollTop:$('.f1').eq($(this).index()).offset().top
+         })
+	})
+
+	$(".floor2").children(".i6").click(function(){
+		$("html").stop().animate({
+            scrollTop:0
+         })
+	})
+	
+//选项卡
+	$(function(){
+		$('.xuan').find(".tab").children("li").click(function(){
+			$(this).siblings().css({
+				background:"#f5f5f5",
+    			color:"#000"
+			})
+    		$(this).css({
+    			background:"red",
+    			color:"#fff"
+    		})
+    		$('.xuan').find(".sh").find("ul").css('display','none')
+    		$('.xuan').find(".sh").find("ul").eq($(this).index()).css('display','block')
+		})
+	})
+
+//三级菜单
+$(function(){
+	$("#dao").find("dd").mouseover(function(){
+//		$(this)..css({display:"none"})
+		$(this).find(".cd2").css({display:"block"})
+	})
+	$("#dao").find("dd").mouseout(function(){
+//		$(this)..css({display:"none"})
+		$(this).find(".cd2").css({display:"none"})
+	})
+})
+
+//登陆后状态改变
+	var msg = localStorage.getItem("loginUser");
+    if(msg){
+        $(".deng").hide();
+        $(".zhu").hide();
+        $(".hello").show();
+        $(".hello").find("span").html(JSON.parse(msg).user);
+    }else{
+        $(".deng").show();
+        $(".zhu").show();
+        $(".hello").hide();
+    }
+    
+    $(".hello").find("a").click(function(){
+        localStorage.removeItem("loginUser");
+       $(".deng").show();
+        $(".zhu").show();
+        $(".hello").hide();
+    })
+    
+//懒加载
+	var aimg = document.querySelectorAll("img");
+    var arr = Array.from(aimg);
+    var t;
+
+    onload = onscroll = function(){
+        // 函数节流：同一个时间单位内，如果多次执行同一个函数，拿到的结果一致的，利用计时器的方式，使得同一个时间单位内，只执行一次这个函数，达到节流的目的
+        clearTimeout(t);
+        t = setTimeout(function(){
+            fn();
+        },100)
+    }
+
+    function fn(){
+        var scrollT = document.documentElement.scrollTop;
+        var clientH = document.documentElement.clientHeight;
+        
+        for(var i=0;i<arr.length;i++){
+            console.log(`i:${i}`);
+            if(arr[i].offsetTop - scrollT < clientH){
+                arr[i].src = arr[i].getAttribute("ljz");
+                // 小心使用：在循环中修改了循环次数
+                arr.splice(i,1)
+            }
+        }
+    }
+})(jQuery);

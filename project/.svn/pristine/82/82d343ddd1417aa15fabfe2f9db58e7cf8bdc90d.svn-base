@@ -1,0 +1,18 @@
+main{margin:0;auto;padding:0 150px;}
+main .title{border-bottom: 1px solid #ccc;font:12px/32px "";margin-bottom: 10px;padding-left:15px;}
+main .title a:hover{color:#C19E66;}
+main .form{height:400px;border:2px solid #ccc;display: flex;padding:20px 0;}
+main .form .tip{margin:20px 0 20px 50px;}
+
+/*登录页面*/
+main .form .login{flex:1;}
+main .form p span{display:inline-block;font:700 14px/2 "";margin:10px 20px;}
+main .form p a:hover{color:#9A0000;} 
+main .form .check{margin-left:100px;}
+main .form .btn{margin:20px 0 20px 100px;width:113px;height:35px;border:0;}
+main .form .dl{background:url(../img/dl.gif) no-repeat;}
+main .form .zc{background:url(../img/zc.gif) no-repeat;}
+main .form  b{display:block;font-size:14px;line-height:20px;margin-left:120px;color:red;}
+/*注册页面*/
+main .form .register{flex:1;border-left:1px solid #721C24;}
+main .form .register i{color:#f00;}

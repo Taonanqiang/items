@@ -1,0 +1,153 @@
+@charset "UTF-8";
+main {
+  width: 1223px;
+  margin: 0 auto; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font: 12px/3 ""; }
+  .nav .shouye b {
+    display: inline-block;
+    width: 12px;
+    height: 12px; }
+  .nav .shouye a:hover {
+    color: red; }
+
+.screen h3 {
+  padding: 0 20px;
+  font: 16px/2 "";
+  border: 1px solid #ccc;
+  overflow: hidden; }
+  .screen h3 span {
+    float: right;
+    font-weight: 500;
+    cursor: pointer; }
+
+.screen .lb {
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  border-top: 0; }
+  .screen .lb p {
+    border-bottom: 1px dashed #ccc;
+    font: 12px/28px ""; }
+    .screen .lb p span {
+      font-weight: 700; }
+    .screen .lb p u {
+      background: black;
+      color: #fff; }
+    .screen .lb p a {
+      margin: 0 8px;
+      color: #000; }
+      .screen .lb p a:hover {
+        color: red; }
+    .screen .lb p:nth-child(2) {
+      margin-bottom: 10px; }
+
+.paixu {
+  height: 40px;
+  margin: 20px 0;
+  background: #eee;
+  border: 2px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px; }
+  .paixu .pl {
+    padding-left: 10px; }
+    .paixu .pl span, .paixu .pl a {
+      padding: 0 10px; }
+    .paixu .pl a {
+      line-height: 24px;
+      display: inline-block;
+      background: #fff;
+      border: 1px solid #ccc; }
+      .paixu .pl a:nth-child(2) {
+        background: red;
+        color: #fff; }
+
+#goods {
+  margin: 0 auto;
+  position: relative;
+  min-height: 500px;
+  /*商品列表排序*/
+  /*商品列表*/ }
+  #goods .pr {
+    display: flex;
+    line-height: 22px; }
+    #goods .pr span {
+      color: #FF0000;
+      font-weight: 700;
+      padding: 0 30px; }
+  #goods .cont {
+    position: relative;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    #goods .cont .box {
+      padding-top: 20px;
+      border: 1px solid #fff;
+      width: 230px;
+      text-align: center; }
+      #goods .cont .box span {
+        display: block;
+        padding: 0 10px;
+        font: 12px/3 ""; }
+      #goods .cont .box img {
+        width: 80%;
+        margin: 0 auto;
+        height: 200px; }
+      #goods .cont .box:hover {
+        border: 1px solid #ddd; }
+      #goods .cont .box p {
+        font: 800 14px/2 "";
+        color: #FF0000; }
+        #goods .cont .box p i {
+          color: #000; }
+      #goods .cont .box u, #goods .cont .box b {
+        display: inline-block;
+        background: #eee;
+        border: 1px solid #ccc;
+        margin: 10px;
+        padding: 10px; }
+        #goods .cont .box u:hover, #goods .cont .box b:hover {
+          background: #f1f1f1;
+          box-shadow: 1px 1px 1px #ccc; }
+
+.pagWarp {
+  height: 40px;
+  box-shadow: 0 2px 5px #b6b6b6;
+  border-radius: 2px;
+  position: absolute;
+  right: 42%;
+  bottom: -40px; }
+
+#btnL, #btnR {
+  line-height: 40px;
+  cursor: pointer; }
+
+#btnL {
+  float: left; }
+
+#btnR {
+  float: right; }
+
+.pagWarp ul {
+  height: 40px;
+  margin: 0 auto;
+  float: left;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+.pagWarp ul li {
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  padding: 0 4px;
+  list-style: none; }
+
+.active {
+  color: blue;
+  font-size: 30px; }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/car.css"/>
+	<body>
+		<section class="tou"></section>
+		<mian>
+			<div class="top">
+				<img src="img/logo.jpg"/>
+				<img src="img/cart_step2_v1.jpg"/>
+			</div>
+			<div class="car">
+				<p>商品清单</p>
+				<table border="1" cellspacing="0" width="800" align="center">
+        <thead>
+            <tr>
+                <th>产品</th>
+                <th>名称</th>
+                <th>数量</th>
+                <th>价格</th>
+                <th>总价</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--<tr>
+                <td colspan="5">购物车为空</td>
+            </tr>-->
+             <tr>
+                <td><img src="img/goods/01.jpg"></td>
+                <td>【宾伦】玫瑰红防水钨钢女士手表 女士石英手表-BL0034L-WCC</td>
+                <td>价格</td>
+                <td><input type="number" value="1"></td>
+                <td>删除</td>
+            </tr> 
+        </tbody>
+    </table>
+			</div>
+		</mian>
+		<section class="wei"></section>
+	</body>
+	<script src="libs/jquery.1.12.4.js"></script>
+	<script src="js/car.js"></script>
+</html>

@@ -1,0 +1,79 @@
+;(function($){
+	$(".tou").load("http://localhost/taocaixia/head.html #tou")
+	$(".wei").load("http://localhost/taocaixia/head.html #wei")
+	
+//	console.log($("form"))
+//	$("form").validate();
+	
+	class Register{
+		constructor() {
+		    this.user=$(".user1");
+		    this.email=$(".email");
+		    this.pass1=$(".pass1");
+		    this.pass2=$(".pass2");
+		    this.zc=$(".zc");
+		    var this.useronOff = this.emlonOff = this.passonOff = this.ckonOff = false;
+		    this.judge();
+		    this.addEvent()
+		}
+		judge(){
+			var that=this;
+			this.user.on("blur",function(){
+				that.userReg();
+			})
+			this.email.on("blur",function(){
+				that.emailReg();
+			})
+			this.pass1.on("blur",function(){
+				that.passReg1();
+			})
+			this.pass2.on("blur",function(){
+				that.passReg2();
+			})
+		}
+		userReg(){
+			let reg = /^[\u2E80-\u9FFF]{3,7}$/
+			if(reg.test(this.user.val())){
+				this.user.next("i").html("可以注册");
+				this.useronOff = true;
+			}else{
+				this.user.next("i").html("请输入3-7位汉字");
+				this.useronOff = false;
+			}
+		}
+		emailReg(){
+			let reg = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+			if(reg.test(this.user.val())){
+				this.email.next("i").html("可以注册");
+				this.emlonOff = true;
+			}else{
+				this.email.next("i").html("请输入正确的邮箱");
+				this.emlonOff = false;
+			}
+		}
+		passReg1(){		
+			console.log()
+			if(this.pass1.val().length>=6){
+				this.pass1.next("i").html("可以注册");
+				this.passonOff = true;
+			}else{
+				this.pass1.next("i").html("登录密码不能少于 6 个字符");
+				this.passonOff = false;
+			}
+		}
+		passReg2(){
+			if(this.pass1.val() == this.pass2.val()){
+				this.pass2.next("i").html("可以注册");
+				this.ckonOff = true;
+			}else{
+				this.pass2.next("i").html("密码不一致");
+				this.ckonOff = false;
+			}
+		}
+		addEvent(){
+			
+		}
+		
+	}
+	new Register()
+})(jQuery);

@@ -1,0 +1,345 @@
+	<div id="tou">
+		<style>
+			#top{height:99px;}
+			#top a{width:100%;height:100%;display:block;background:url(img/top.jpg) no-repeat;}
+			nav{width:80%;height:42px;margin:0 auto;display:flex;justify-content:space-between;}
+			nav .menu{display:flex;line-height: 42px;}
+			nav .menu a{font:12px/42px "";color:#333;display:block;padding-left:5px;}
+			/*nav .menu .gz a{padding-right:5px;}*/
+			nav .menu .hnews a{display:block;font:12px/42px "";color:#333;width:60px;padding:0;}
+			nav .menu span{margin-right:7px;}
+			nav .menu a span:nth-child(1){margin-right: 0;}
+			nav .menu a span:nth-child(3){margin-left:7px;margin-right:0;}
+			nav i{display:inline-block;background:url(img/bg.png);background-size:20px 95px;width:17px;height:17px;vertical-align: middle;margin-right:5px;}
+			nav .menu div{padding:0 5px;}
+			nav div a i.i2{background-position:-1px -18px ;}
+			nav div a i.i3{background-position:-1px -36px ;}
+			nav i.i4{width:5px;height:10px;background-position:-1px -54px;margin-left:5px;}
+			nav li a i.i5{width:19px;height:14px;background-position:-1px -71px;}
+			nav .gz{position: relative;}
+			nav .weibo{display:none;background:#AAAAAA;position: absolute;top:30px;left:0;}
+			nav .weibo p a{font:14px/36px ""}
+			nav .gz:hover .weibo{display: block;}
+			nav .go{display:flex;line-height: 42px;font:12px/42px "";}
+			nav .go span{padding:0 5px;}
+			nav .go .login:hover u{color:#FF0000}
+			nav .go .register:hover u{color:#FF0000}
+			nav .go .hello{display:none;margin-left:10px;}
+nav .go .hello a{cursor: pointer;color:#007BFF;}
+
+			header{height:114px;background:black;display:flex;}
+			header .logo{margin-left:20px;width:440px;}
+			header .ss{}
+			header .ss .ss-t{overflow: hidden;margin-top:45px;}
+			header .ss .ss-t .txt{float:left;height:23px;width:258px;border:1px solid #666;}
+			header .ss .ss-t .sear{float:left;width:30px;height:25px;border:1px solid #666;background:url(img/sear.png) no-repeat;}
+			header ul{overflow: hidden;}
+			header ul li{float: left;margin-top:6px;color:#fff;}
+			header ul li a{color:#fff;margin:0 3px;}
+			header img.phone{width:248px;height:22px;margin:44px 0 0 31px;}
+			
+			#dao{height: 33px;background: #616161;display: flex;}
+			#dao .dao-l{width:250px;height:100%;background:#303030;position: relative;}
+			#dao .dao-l h3{font:700 14px/33px "宋体";text-align: center;position:relative}
+			#dao .dao-l h3 a{color:#fff;display:block;}
+			#dao .dao-l h3 .wang{display:none;width:100%;height:42px;position:absolute;top:33px;left:0;
+			background:#cacaca;text-align: center;font:700 16px/42px "";color:#000;z-index:60;}
+			#dao .dao-l h3:hover .wang{display: block;}
+			
+			#dao ul{display:flex;text-align:center;}
+			#dao ul li{width:160px;font-size:16px;font-weight: 700;height:100%;line-height:33px;}
+			#dao ul li a{color:#fff;}
+			#dao ul li:hover{background:#1a1a1a;}
+			#dao ul .shou{position: relative;}
+			#dao ul .shou .box{background:#fff;text-align:left;position: absolute;width:720px;z-index: 70;top:33px;left:0;display:none;overflow:hidden;}
+			#dao ul .shou .box div{float:left;box-sizing:border-box;width:180px;height:120px;border-right:1px dashed #F1F1F1;}
+			#dao ul .shou .box div:hover{background:#EEEEEE;}
+			#dao ul .shou .box div a{color:#000;line-height:50px;}
+			#dao ul .shou .box div h4{line-height: 50px;}
+			#dao ul .shou .box div p a{font:12px/3 "";}
+			#dao ul .shou .box div:nth-child(4){border-right:0;}
+			#dao ul .shou .box div:nth-child(8){border-right:0;}
+			#dao ul .shou .box div:nth-child(1){border-bottom:1px dashed #F1F1F1;}
+			#dao ul .shou .box div:nth-child(2){border-bottom:1px dashed #F1F1F1;}
+			#dao ul .shou .box div:nth-child(3){border-bottom:1px dashed #F1F1F1;}
+			#dao ul .shou .box div:nth-child(4){border-bottom:1px dashed #F1F1F1;}
+			#dao ul .shou:hover .box{display: block;}
+			#dao ul .shou .box div p a:hover{background:#fff;}
+		</style>
+		<div id="top">
+			<a href=""></a>
+		</div>
+		<nav>
+			<div class="menu">
+				<div class="hnews"><a href="">网站地图<span>|</span></a></div>
+				<div class="hnews"><a href="">名表社区</a></div>
+				<div><a href=""><i class="i1"></i><b>手机客户端</b></a></div>
+				<div><a href=""><i class="i2"></i><span>|</span>邀请好友</a></div>
+				<div><a href=""><i class="i3"></i><span>|</span>加入收藏<span>|</span></a></div>
+				<div class="gz">
+					<a href="">关注我们<i class="i4"></i></a>
+					<div class="weibo">
+						<p><a href="">新浪微博</a></p>
+						<p><a href="">腾讯微博</a></p>
+					</div>
+				</div>
+			</div>
+			<ul class="go">
+				<li><a href="car.html"><i class="i5"></i>购物车</a></li>
+				<li class="deng"><a href="login.html" class="login"><span>|</span><u>登录</u></a></li>
+				<li class="zhu"><a href="login.html" class="register"><span>|</span><u>注册</u></a></li>
+				<li class="hello">欢迎尊贵的<span></span>用户访问本网站,<a>退出</a></li>
+			</ul>
+		</nav>
+		<header>
+			<div class="logo">
+				<a href=""><img src="img/logo.png"/></a>
+				<a href=""><img src="img/binlunshop.png"/></a>
+			</div>
+			<div class="ss">
+				<div class="ss-t">
+					<input type="text" name="" placeholder="请输入手表型号或品牌名称" class="txt"/>
+					<input type="search" class="sear"/>
+				</div>
+				<ul>
+					<li>热搜：</li>
+					<li><a href="">男表</a></li>
+					<li><a href="">女表</a></li>
+					<li><a href="">机械表</a></li>
+					<li><a href="">情侣表</a></li>
+				</ul>
+			</div>
+			<img src="img/phone.png" class="phone"/>
+		</header>
+		<!--导航-->
+		<section id="dao">
+			<div class="dao-l">
+				<h3>
+					<a href="">今日团购</a>
+					<a class="wang">往日团购</a>
+				</h3>
+			</div>
+			<ul>
+				<li class="shou">
+					<a href="">首页</a>
+					<div class="box">
+						<div>
+							<a href="">男表专区</a>
+						</div>
+						<div>
+							<a href="">女表专区</a>
+						</div>
+						<div>
+							<a href="">情侣表专区</a>
+						</div>
+						<div></div>
+						<div>
+							<h4>风格</h4>
+							<p>
+								<a href="#">商务休闲</a>
+								<a href="#">户外运动</a>
+								<a href="#">潮流时尚</a>
+								<a href="#">经典复古</a>
+								
+							</p>
+						</div>
+						<div>
+							<h4>机芯</h4>
+							<p>
+								<a href="#">石英</a>
+								<a href="#">机械</a>
+								<a href="#">电子</a>
+								<a href="#">光动能</a>
+								<a href="#">电波</a>
+							</p>
+						</div>
+						<div>
+							<h4>价格</h4>
+							<p>
+								<a href="#">1000以下</a>
+								<a href="#">1000-3000</a>
+								<a href="#">3000-5000</a>
+								<a href="#">5000-10,000</a>
+							</p>
+						</div>
+						<div>
+							<h4>防水</h4>
+							<p>
+								<a href="#">不防水</a>
+								<a href="#">30米</a>
+								<a href="#">50米</a>
+								<a href="#">100米</a>
+							</p>
+						</div>
+					</div>
+				</li>
+				<li><a href="">限时特卖</a></li>
+				<li><a href="">原装保证</a></li>
+				<li><a href="">招商加盟</a></li>
+				<li><a href="">品牌文化</a></li>
+			</ul>
+		</section>
+	</div>
+	
+<div id="wei">
+	<style>
+		#help{background: #171717;display:flex;padding:20px 0;}
+		#help .help-l{margin-left:50px;}
+		#help .help-l .dingyue{overflow: hidden;border:1px solid #9c979d;}
+		#help .help-l .dingyue input{border:0;float: left;font:12px/20px "";}
+		#help .help-l .dingyue .txt{width:136px;}
+		#help .help-l .dingyue .dy{background:#9c979d;width:55px;color:#fff;text-align:center}
+		#help .help-r{display:flex;margin-left:150px;flex: 1;}
+		#help .help-r dl{border-left:1px dashed #9c979d;padding:0 30px;flex: 1;}
+		#help .help-r dl dt{font:16px/18px "";color:#fff;}
+		#help .help-r dl dd{margin-left:8px;list-style:;font:12px/28px "";position: relative;}
+		#help .help-r dl dd:before{content:"";display:inline-block;width:3px;height:3px;background:#9c979d;position: absolute;left:-8px;top:50%;}
+		#friend{padding-top:10px;margin-bottom: 30px;}
+		#friend .menu{display: flex;border-bottom:1px solid #C0C0C0;}
+		#friend .menu li{border: 1px solid #C0C0C0;border-bottom:0;font:12px/2 "";margin:0 3px;padding:0 10px;}
+		#friend .num{border-bottom:1px solid #C0C0C0;font:12px/2 "";}
+		#friend .num a{color:#000;}
+		
+		#foot{text-align: center;}
+		#foot p{font:12px/2 "";}
+		#foot div{margin-bottom:10px;}
+	</style>
+			<section id="help">	
+			<div class="help-l">
+				<img src="img/help.png" />
+				<div class="dingyue">
+					<input type="text" name="" placeholder="订阅最新促销消息" class="txt"/>
+					<input type="search" class="dy" value="订阅"/>
+				</div>
+			</div>
+	    	<div class="help-r">
+			      <dl class="">
+			        <dt>新手指南</dt>
+			        <dd><a href="">注册新会员</a></dd>
+			        <dd><a href="">如何订购</a></dd>
+			        <dd><a href="">购物保障</a></dd>
+			        <dd><a href="">常见手表问题</a></dd>
+			      </dl>
+			      <dl class="">
+			        <dt>如何支付</dt>
+			        <dd><a href="">支付方式</a></dd>
+			        <dd><a href="">分期付款</a></dd>
+			        <dd><a href="">发票说明</a></dd>
+			        <dd><a href="">支付问题</a></dd>
+			      </dl>
+			      <dl class="">
+			        <dt>购物配送</dt>
+			        <dd><a href="">包裹签收</a></dd>
+			        <dd><a href="">配送方式</a></dd>
+			        <dd><a href="">配送说明</a></dd>
+			        <dd><a href="">自提流程</a></dd>
+			      </dl>
+			      <dl class="">
+			        <dt>服务保障</dt>
+			        <dd><a href="">服务承诺</a></dd>
+			        <dd><a href="">退换流程</a></dd>
+			        <dd><a href="">七天退换说明</a></dd>
+			        <dd><a href="">保修说明</a></dd>
+			      </dl>
+			      <dl class="">
+			        <dt>帮助中心</dt>
+			        <dd><a href="">人才招聘</a></dd>
+			        <dd><a href="">商务合作</a></dd>
+			        <dd><a href="">分销加盟</a></dd>
+			        <dd><a href="">关于我们</a></dd>
+			      </dl>
+	      </div>
+		</section>
+		<!--友情链接-->
+		<section id="friend" class="margin">
+			<ul class="menu">
+			    <li>友情链接</li>
+			    <li>合作网站</li>
+			    <li>联系QQ:2816456016</li>
+			</ul>
+		    <div class="num">
+		        <a href="">零食</a> |
+		        <a href="">史泰博</a> |
+		        <a href="">品尚红酒</a> |
+		        <a href="">厦门特产</a> |
+		        <a href="">易迅优惠券</a> |
+		        <a href="">电脑配件</a> |
+		        <a href="">女朋友生日礼物</a> |
+		        <a href="">收藏资讯</a> |
+		        <a href="">PClady手表</a> |
+		        <a href="">中国礼品网</a> |
+		        <a href="">生活网</a> |
+		        <a href="">奢品</a> |
+		        <a href="">艺术网</a> |
+		        <a href="">格拉王子</a> |
+		        <a href="">1元云购</a> |
+		        <a href="">绿茶</a> |
+		        <a href="">批发网</a> |
+		        <a href="">中国钟表网</a> |
+		        <a href="">农产品商城</a> |
+		        <a href="">优购物</a> |
+		        <a href="">全球采购网</a> |
+		        <a href="">女士包包团购</a> |
+		        <a href="">手表网</a> |
+		        <a href="">包包</a> |
+		        <a href="">匹克官方网店</a> |
+		        <a href="">一折网</a> |
+		        <a href="">世界名表</a> |
+		        <a href="">结婚戒指</a> |
+		        <a href="">品牌特卖</a> |
+		        <a href="">手表</a> |
+		        <a href="">红酒品牌</a> |
+		        <a href="">跑步机</a> |
+		        <a href="">匹克官网</a> |
+		        <a href="">唯品会品牌折扣网</a> |
+		        <a href="">户外装备</a> |
+		        <a href="">饰品礼品</a> |
+		        <a href="">美瞳</a> |
+		        <a href="">商机网</a> |
+		        <a href="">世界名表</a> |
+		        <a href="">型尚网</a> |
+		        <a href="">钻石戒指</a> |
+		        <a href="">集美家居</a> |
+		        <a href="">收藏品</a> |
+		        <a href="">纯棉家居家纺</a> |
+		        <a href="">女装搭配</a> |
+		        <a href="">化妆品</a> |
+		        <a href="">奢侈品</a> |
+		        <a href="">更多链接</a>
+		    </div>
+		    <div id="youqing_num1" class="youqinglink" style="display: none;">
+		        <a href="">和田玉</a> |
+		        <a href="">女性时尚网</a> |
+		        <a href="">御府和田玉</a> |
+		        <a href="">珠宝黄金网</a> |
+		        <a href="">移民</a> |
+		        <a href="">活动网</a> |
+		        <a href="">好乐买鞋城</a> |
+		        <a href="">杭州女装网</a> |
+		        <a href="">麻豆网</a> |
+		        <a href="">服装搭配</a> |
+		        <a href="">中国企业网</a> |
+		        <a href="">结婚戒指</a> |
+		        <a href="">民族风女装</a> |
+		    </div>
+		</section>
+		<!--页脚-->
+		<section id="foot" class="margin">
+			<div class="info">
+			    <p class="">2009-2018 宾伦名表城 - 手表商城网站、让您无忧购表! 版权所有，并保留所有权利&nbsp;&nbsp;ICP备案证书号：<a href="">粤ICP备12002583号-1</a>&nbsp;&nbsp;</p>
+			    <p>广州市易赢贸易有限公司 地址：广州市白云区机场路72号景豪商务大厦3楼</p>
+			</div>
+			<div>
+				<img src="img/xiaofei/01.gif"/>
+				<img src="img/xiaofei/02.gif"/>
+				<img src="img/xiaofei/03.gif"/>
+				<img src="img/xiaofei/05.gif"/>
+				<img src="img/xiaofei/04.gif"/>
+				<img src="img/xiaofei/06.gif"/>
+			</div>
+			<div>
+				<img src="img/xiaofei/pic.gif"/>
+			</div>
+		</section>
+
+</div>

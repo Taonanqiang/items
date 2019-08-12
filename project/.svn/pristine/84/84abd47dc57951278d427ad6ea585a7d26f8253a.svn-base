@@ -1,0 +1,89 @@
+main {
+  padding: 0 20px; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font: 12px/3 ""; }
+  .nav .shouye b {
+    display: inline-block;
+    width: 12px;
+    height: 12px; }
+  .nav .shouye a:hover {
+    color: red; }
+  .nav .fx i {
+    background: url(img/tubiao.pmg); }
+
+.screen h3 {
+  padding: 0 20px;
+  font: 16px/2 "";
+  border: 1px solid #ccc;
+  overflow: hidden; }
+  .screen h3 span {
+    float: right;
+    font-weight: 500;
+    cursor: pointer; }
+
+.screen .lb {
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  border-top: 0; }
+  .screen .lb p {
+    border-bottom: 1px dashed #ccc;
+    font: 12px/28px ""; }
+    .screen .lb p span {
+      font-weight: 700; }
+    .screen .lb p u {
+      background: black;
+      color: #fff; }
+    .screen .lb p a {
+      margin: 0 8px;
+      color: #000; }
+      .screen .lb p a:hover {
+        color: red; }
+    .screen .lb p:nth-child(2) {
+      margin-bottom: 10px; }
+
+.paixu {
+  height: 40px;
+  margin: 20px 0;
+  background: #eee;
+  border: 2px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px; }
+  .paixu .pl {
+    padding-left: 10px; }
+    .paixu .pl span, .paixu .pl a {
+      padding: 0 10px; }
+    .paixu .pl a {
+      line-height: 24px;
+      display: inline-block;
+      background: #fff;
+      border: 1px solid #ccc; }
+      .paixu .pl a:nth-child(2) {
+        background: red;
+        color: #fff; }
+
+.pr {
+  display: flex;
+  line-height: 22px; }
+  .pr span {
+    color: #FF0000;
+    font-weight: 700;
+    padding: 0 30px; }
+  .pr p b {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 0 5px; }
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px; }
+  .list li {
+    width: 250px; }
+    .list li span {
+      display: block; }

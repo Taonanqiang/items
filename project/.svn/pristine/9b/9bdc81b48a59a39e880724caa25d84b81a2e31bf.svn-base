@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>宾伦名表城</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div id="top">
+			<a href="##"></a>
+		</div>
+		<nav>
+			<div class="menu">
+				<div class="hnews"><a href="##">网站地图<span>|</span></a></div>
+				<div class="hnews"><a href="##">名表社区</a></div>
+				<div><a href="##"><i class="i1"></i><b>手机客户端</b></a></div>
+				<div><a href="##"><i class="i2"></i><span>|</span>邀请好友</a></div>
+				<div><a href="##"><i class="i3"></i><span>|</span>加入收藏<span>|</span></a></div>
+				<div class="gz">
+					<a href="##">关注我们<i class="i4"></i></a>
+					<div class="weibo">
+						<p><a href="##">新浪微博</a></p>
+						<p><a href="##">腾讯微博</a></p>
+					</div>
+				</div>
+			</div>
+			<ul class="go">
+				<li><a href="##"><i class="i5"></i>购物车</a></li>
+				<li><a href="login.html" class="login"><span>|</span><u>登录</u></a></li>
+				<li><a href="login.html" class="register"><span>|</span><u>注册</u></a></li>
+			</ul>
+		</nav>
+		<header>
+			<div class="logo">
+				<a href="##"><img src="img/logo.png"/></a>
+				<a href="##"><img src="img/binlunshop.png"/></a>
+			</div>
+			<div class="ss">
+				<div class="ss-t">
+					<input type="text" name="" placeholder="请输入手表型号或品牌名称" class="txt"/>
+					<input type="search" class="sear"/>
+				</div>
+				<ul>
+					<li>热搜：</li>
+					<li><a href="##">男表</a></li>
+					<li><a href="##">女表</a></li>
+					<li><a href="##">机械表</a></li>
+					<li><a href="##">情侣表</a></li>
+				</ul>
+			</div>
+			<img src="img/phone.png" class="phone"/>
+		</header>
+		<!--导航-->
+		<section id="dao">
+			<div class="dao-l">
+				<h3>
+					<a href="##">今日团购</a>
+					<a class="wang">往日团购</a>
+				</h3>
+				<dl>
+					<dt><a href="##">所有商品分类</a></dt>
+					<dd>
+						<p>人群</p>
+						<div class="cd1">
+							<a href="#">男表</a>
+							<a href="#">女表</a>
+							<a href="#">情侣</a>
+						</div>
+						<div class="cd2 te">
+							<div class="cd2-l">
+								<div class="cai">
+									<a href="##">宾伦BINLUN</a>
+								</div>
+								<div class="re">
+									<p>
+										热门品牌
+										<span>
+											更多<<<
+										</span>
+									</p>
+									<img src="img/pinpai.jpg"/>
+									<img src="img/pinpai.jpg"/>
+									<img src="img/pinpai.jpg"/>
+									<img src="img/pinpai.jpg"/>
+									<img src="img/pinpai.jpg"/>
+									<img src="img/pinpai.jpg"/>
+								</div>
+							</div>
+							<div class="cd2-r">
+								<span>抢购活动</span>
+								<img src="img/cd2.jpg"/>
+								<img src="img/nabiao/nan1.jpg"/>
+								<img src="img/nabiao/nan2.jpg"/>
+								<img src="img/nabiao/nan3.jpg"/>
+							</div>
+						</div>
+					</dd>
+					<dd>
+						<p>风格</p>
+						<div class="cd1">
+							<a href="#">商务休闲</a>
+							<a href="#">户外运动</a>
+							<a href="#">潮流时尚</a>
+						</div>
+						<div class="cd2">
+							<div class="cd2-l">
+								<div class="cai">
+									<a href="##">中兴性</a> |
+									<a href="##">情侣</a> |
+									<a href="##">男表</a> |
+									<a href="##">女表</a>
+								</div>
+							</div>
+							<div class="cd2-r">
+								<span>抢购活动</span>
+								<img src="img/cd2.jpg"/>
+							</div>
+						</div>
+					</dd>
+					<dd>
+						<p>机芯</p>
+						<div class="cd1">
+							<a href="#">石英</a>
+							<a href="#">机械</a>
+							<a href="#">电子</a>
+							<a href="#">光动能</a>
+							<a href="#">电波</a>
+						</div>
+						<div class="cd2">
+							<div class="cd2-l">
+								<div class="cai">
+									<a href="##">经典复古</a> |
+									<a href="##">正装</a>
+								</div>
+							</div>
+							<div class="cd2-r">
+								<span>抢购活动</span>
+								<img src="img/cd2.jpg"/>
+							</div>
+						</div>
+					</dd>
+					<dd>
+						<p>表带</p>
+						<div class="cd1">
+							<a href="#">金属</a>
+							<a href="#">皮革</a>
+							<a href="#">塑胶</a>
+							<a href="#">树胶</a>
+							<a href="#">陶瓷</a>
+						</div>
+						<div class="cd2">
+							<div class="cd2-l">
+								<div class="cai">
+									<a href="#">石英</a> |
+									<a href="#">机械</a> |
+									<a href="#">电子</a> |
+									<a href="#">光动能</a> |
+									<a href="#">电波</a>
+								</div>
+							</div>
+							<div class="cd2-r">
+								<span>抢购活动</span>
+								<img src="img/cd2.jpg"/>
+							</div>
+						</div>
+					</dd>
+					<dd>
+						<p>价格</p>
+						<div class="cd1">
+							<a href="#">1000以下</a>
+							<a href="#">1000-1500</a>
+							<a href="#">1500-2000</a>
+						</div>
+						<div class="cd2">
+							<div class="cd2-l">
+								<div class="cai">
+									<a href="#">金属</a> |
+									<a href="#">皮革</a> |
+									<a href="#">塑胶</a> |
+									<a href="#">树胶</a> |
+									<a href="#">陶瓷</a> |
+								</div>
+							</div>
+							<div class="cd2-r">
+								<span>抢购活动</span>
+								<img src="img/cd2.jpg"/>
+							</div>
+						</div>
+					</dd>
+					<dd>
+						<p>防水</p>
+						<div class="cd1">
+							<a href="#">不防水</a>
+							<a href="#">30米</a>
+							<a href="#">50米</a>
+							<a href="#">100米</a>
+						</div>
+						<div class="cd2">
+							<div class="cd2-l">
+								<div class="cai">
+									<a href="#">1000以下</a> |
+									<a href="#">1000-3000</a> |
+									<a href="#">3000-5000</a> |
+									<a href="#">5000-10,000</a>
+								</div>
+							</div>
+							<div class="cd2-r">
+								<span>抢购活动</span>
+								<img src="img/cd2.jpg"/>
+							</div>
+						</div>
+					</dd>
+				</dl>
+			</div>
+			<!--选项卡-->
+			<ul>
+				<li class="shou">
+					<a href="##">首页</a>
+					<div class="box">
+						<div>
+							<a href="##">男表专区</a>
+						</div>
+						<div>
+							<a href="##">女表专区</a>
+						</div>
+						<div>
+							<a href="##">情侣表专区</a>
+						</div>
+						<div></div>
+						<div>
+							<h4>风格</h4>
+							<p>
+								<a href="#">商务休闲</a>
+								<a href="#">户外运动</a>
+								<a href="#">潮流时尚</a>
+								<a href="#">经典复古</a>
+								
+							</p>
+						</div>
+						<div>
+							<h4>机芯</h4>
+							<p>
+								<a href="#">石英</a>
+								<a href="#">机械</a>
+								<a href="#">电子</a>
+								<a href="#">光动能</a>
+								<a href="#">电波</a>
+							</p>
+						</div>
+						<div>
+							<h4>价格</h4>
+							<p>
+								<a href="#">1000以下</a>
+								<a href="#">1000-3000</a>
+								<a href="#">3000-5000</a>
+								<a href="#">5000-10,000</a>
+							</p>
+						</div>
+						<div>
+							<h4>防水</h4>
+							<p>
+								<a href="#">不防水</a>
+								<a href="#">30米</a>
+								<a href="#">50米</a>
+								<a href="#">100米</a>
+							</p>
+						</div>
+					</div>
+				</li>
+				<li><a href="##">限时特卖</a></li>
+				<li><a href="##">原装保证</a></li>
+				<li><a href="##">招商加盟</a></li>
+				<li><a href="##">品牌文化</a></li>
+			</ul>
+		</section>
+		<!--轮播图-->
+		<section id="banner">
+			<p class="te"></p>
+			<div class="ban">				
+				<img src="img/banner/picSlidead11_1.jpg" />
+				<img src="img/banner/picSlidead11_2.jpg" />
+				<img src="img/banner/picSlidead11_3.jpg" />
+			</div>
+		</section>
+		<!--选项卡-->
+		<main class="margin">
+			<div class="main-l">
+				<div class="main-l-t">
+					<!--团购活动-->
+					<div class="tuan">
+						<h3>今日团购</h3>
+					</div>
+					<!--选项卡-->
+					<div class="xuan">
+						<!--标题-->
+						<ul class="tab">
+							<li class="active">今日推荐</li>
+							<li>热卖商品</li>
+							<li>最新降价</li>
+							<li>新品到货</li>
+						</ul>
+						<!--商品-->
+						<div class="sh">
+							<ul class="sh1">
+								<li>
+									<a href="##">
+										<img src="img/01.jpg"/>
+										<h4 class="over">宾伦优雅时尚镶钻女士手表 女士石英手表-...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥749</u>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="##">
+										<img src="img/02.jpg"/>
+										<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥1154</u>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="##">
+										<img src="img/03.jpg"/>
+										<h4 class="over">宾伦手表 多功能男手表 计时腕表 商务运...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥899</u>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="##">
+										<img src="img/04.jpg"/>
+										<h4 class="over">【宾伦手表】情侣款精钢全自动机械表 情侣...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥1510</u>
+										</p>
+									</a>
+								</li>
+							</ul>
+							<ul class="sh2">
+								<li>
+									<a href="##">
+										<img src="img/02.jpg"/>
+										<h4>【宾伦手表】情侣款精钢全自动机械表 情侣...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥1510</u>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="##">
+										<img src="img/03.jpg"/>
+										<h4>宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥1256</u>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="##">
+										<img src="img/04.jpg"/>
+										<h4>宾伦手表 多功能男手表 计时腕表 商务运...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥844</u>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="##">
+										<img src="img/01.jpg"/>
+										<h4>宾伦优雅时尚镶钻女士手表 女士石英手表-...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥446</u>
+										</p>
+									</a>
+								</li>
+							</ul>
+							<ul class="sh3">
+								<li>
+									<a href="##">
+										<img src="img/01.jpg"/>
+										<h4 class="over">宾伦优雅时尚镶钻女士手表 女士石英手表-...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥749</u>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="##">
+										<img src="img/02.jpg"/>
+										<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥1154</u>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="##">
+										<img src="img/03.jpg"/>
+										<h4 class="over">宾伦手表 多功能男手表 计时腕表 商务运...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥899</u>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="##">
+										<img src="img/04.jpg"/>
+										<h4 class="over">【宾伦手表】情侣款精钢全自动机械表 情侣...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥1510</u>
+										</p>
+									</a>
+								</li>
+							</ul>
+							<ul class="sh4">
+								<li>
+									<a href="##">
+										<img src="img/02.jpg"/>
+										<h4>【宾伦手表】情侣款精钢全自动机械表 情侣...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥1510</u>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="##">
+										<img src="img/03.jpg"/>
+										<h4>宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥1256</u>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="##">
+										<img src="img/04.jpg"/>
+										<h4>宾伦手表 多功能男手表 计时腕表 商务运...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥844</u>
+										</p>
+									</a>
+								</li>
+								<li>
+									<a href="##">
+										<img src="img/01.jpg"/>
+										<h4>宾伦优雅时尚镶钻女士手表 女士石英手表-...</h4>
+										<p>
+											<span>宾伦价：</span>
+											<u>￥446</u>
+										</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="main-l-b">
+					<h3 class="tui">推荐活动<span>RACOMMENDED ACTIVITIES</span></h3>
+					<div class="tuijian">
+						<a href="##"><img src="img/tuijian/01 (1).jpg"/></a>
+						<a href="##"><img src="img/tuijian/02.jpg"/></a>
+						<a href="##"><img src="img/tuijian/03.jpg"/></a>
+						<a href="##"><img src="img/tuijian/04.jpg"/></a>
+						<a href="##"><img src="img/tuijian/05.jpg"/></a>
+						<a href="##"><img src="img/tuijian/06.jpg"/></a>
+						<a href="##"><img src="img/tuijian/07.jpg"/></a>
+					</div>
+				</div>
+			</div>
+			<div class="main-r">
+				<img src="img/011.jpg"/>
+				<div class="m0">
+		            <p class="mt">
+						<span class="">促销公告</span>
+						<span class="">最新资讯</span>
+		            </p>
+		            <div class="mc over">
+		              <ul>
+			            <li>·<a href="##">2014世界十大名牌手表排名</a></li>
+			            <li>·<a href="##">2014中秋节送什么礼品好-宾伦名表城倾情巨献</a></li>
+			            <li>·<a href="##">父亲节送什么礼物好，宾伦精选几款父亲节送礼的腕表</a></li>
+			            <li>·<a href="##">母亲节送什么礼物好，宾伦母亲节优雅时计</a></li>
+			            <li>·<a href="##">五一宾伦大特卖，全场三折起，满再减</a></li>
+			          </ul>
+		            </div>            
+		            <div class="mc over">
+		              <ul>
+		                   <li>·<a href="##">亚马逊更新退货政策, 逼死小型卖家的节奏！</a></li>
+		                    <li>·<a href="##">速卖通店铺严禁出现外部联系信息，保护的是谁？</a></li>
+		                    <li>·<a href="##">英国税局对跨境电商查税的热潮会持续至2018年</a></li>
+		                    <li>·<a href="##">德国VAT和海外仓</a></li>
+		                    <li>·<a href="##">2017最新亚马逊全球开店流程教程</a></li>
+		                    <li>·<a href="##">亚马逊新手卖家如何才能获得Buy Box？</a></li>
+		                    <li>·<a href="##">为什么你的亚马逊店铺只有流量，却没有转化率？</a></li>
+		                    <li>·<a href="" >美国CPA：你用美国公司做亚马逊和沃尔玛，却不懂美国税务？</a></li>
+		                </ul>
+		            </div>
+          		</div>
+          		<img src="img/08.jpg"/>
+			</div>
+		</main>
+		<!--商品列表-->
+		<section class="watch margin">
+			<!--男表楼层-->
+			<div class="nanbiao f1">
+				<h3 class="title">1F男表系列<a href="##">更多<<<</a></h3>
+				<div class="mm">
+					<div class="ml">
+						<p>
+							<img src="img/flow.jpg"/><img src="img/more.jpg"/>
+						</p>
+						<dl class="list1">
+							<dt>
+								<em>1</em>
+								<a href="##">宾伦正品 全自动机械...</a>
+							</dt>
+							<dd>
+								<a>
+									<img src="img/nabiao/list1.jpg"/>
+									<span>
+										<u>￥1170</u>
+										最近75人购买
+									</span>
+								</a>
+							</dd>
+						</dl>
+						<dl class="list2">
+							<dt>
+								<em>2</em>
+								<a href="##">宾伦正品 全自动机械...</a>
+							</dt>
+							<dd>
+								<a>
+									<img src="img/nabiao/list2.jpg"/>
+									<span>
+										<u>￥1970</u>
+										最近76人购买
+									</span>
+								</a>
+							</dd>
+						</dl>
+						<dl class="list3">
+							<dt>
+								<em>3</em>
+								<a href="##">宾伦正品 全自动机械...</a>
+							</dt>
+							<dd>
+								<a>
+									<img src="img/nabiao/list3.jpg"/>
+									<span>
+										<u>￥570</u>
+										最近65人购买
+									</span>
+								</a>
+							</dd>
+						</dl>
+						<dl class="list4">
+							<dt>
+								<em>4</em>
+								<a href="##">宾伦正品 全自动机械...</a>
+							</dt>
+							<dd>
+								<a>
+									<img src="img/nabiao/list4.jpg"/>
+									<span>
+										<u>￥360</u>
+										最近175人购买
+									</span>
+								</a>
+							</dd>
+						</dl>
+					</div>
+					<ul class="mcn">
+						<li>
+							<a href="##">
+								<img src="img/nabiao/01.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/02.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/03.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/04.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/05.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/06.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/07.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/08.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+					</ul>
+					<div class="mr">
+						<ul>
+							<li><a href="##"><img src="img/nabiao/nan1.jpg"/></a></li>
+							<li><a href="##"><img src="img/nabiao/nan2.jpg"/></a></li>
+							<li><a href="##"><img src="img/nabiao/nan3.jpg"/></a></li>
+							<li><a href="##"><img src="img/nabiao/nan4.jpg"/></a></li>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<a href="" class="ad"><img src="img/nabiao/nanad.jpg"/></a>
+				</div>
+			</div>
+			<!--女表楼层-->
+			<div class="nvbiao f1">
+				<h3 class="title">2F女表系列<a href="##">更多<<<</a></h3>
+				<div class="mm">
+					<div class="ml">
+						<p>
+							<img src="img/flow.jpg"/><img src="img/more.jpg"/>
+						</p>
+						<dl class="list1">
+							<dt>
+								<em>1</em>
+								<a href="##">宾伦正品 全自动机械...</a>
+							</dt>
+							<dd>
+								<a>
+									<img src="img/nabiao/list1.jpg"/>
+									<span>
+										<u>￥1170</u>
+										最近75人购买
+									</span>
+								</a>
+							</dd>
+						</dl>
+						<dl class="list2">
+							<dt>
+								<em>2</em>
+								<a href="##">宾伦正品 全自动机械...</a>
+							</dt>
+							<dd>
+								<a>
+									<img src="img/nabiao/list2.jpg"/>
+									<span>
+										<u>￥1970</u>
+										最近76人购买
+									</span>
+								</a>
+							</dd>
+						</dl>
+						<dl class="list3">
+							<dt>
+								<em>3</em>
+								<a href="##">宾伦正品 全自动机械...</a>
+							</dt>
+							<dd>
+								<a>
+									<img src="img/nabiao/list3.jpg"/>
+									<span>
+										<u>￥570</u>
+										最近65人购买
+									</span>
+								</a>
+							</dd>
+						</dl>
+						<dl class="list4">
+							<dt>
+								<em>4</em>
+								<a href="##">宾伦正品 全自动机械...</a>
+							</dt>
+							<dd>
+								<a>
+									<img src="img/nabiao/list4.jpg"/>
+									<span>
+										<u>￥360</u>
+										最近175人购买
+									</span>
+								</a>
+							</dd>
+						</dl>
+					</div>
+					<ul class="mcn">
+						<li>
+							<a href="##">
+								<img src="img/nabiao/01.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/02.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/03.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/04.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/05.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/06.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/07.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="##">
+								<img src="img/nabiao/08.jpg"/>
+								<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+								<p>
+									<span>宾伦价：</span>
+									<u>￥1154</u>
+								</p>
+							</a>
+						</li>
+					</ul>
+					<div class="mr">
+						<ul>
+							<li><a href="##"><img src="img/nabiao/nan1.jpg"/></a></li>
+							<li><a href="##"><img src="img/nabiao/nan2.jpg"/></a></li>
+							<li><a href="##"><img src="img/nabiao/nan3.jpg"/></a></li>
+							<li><a href="##"><img src="img/nabiao/nan4.jpg"/></a></li>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<a href="" class="ad"><img src="img/nvbiao/nvad.jpg"/></a>
+				</div>
+			</div>
+			<!--情侣表楼层-->
+			<div class="qinglv f1">
+					<h3 class="title">3F情侣表系列<a href="##">更多<<<</a></h3>
+					<div class="mm">
+						<div class="ml">
+							<p>
+								<img src="img/flow.jpg"/><img src="img/more.jpg"/>
+							</p>
+							<dl class="list1">
+								<dt>
+									<em>1</em>
+									<a href="##">宾伦正品 全自动机械...</a>
+								</dt>
+								<dd>
+									<a>
+										<img src="img/nabiao/list1.jpg"/>
+										<span>
+											<u>￥1170</u>
+											最近75人购买
+										</span>
+									</a>
+								</dd>
+							</dl>
+							<dl class="list2">
+								<dt>
+									<em>2</em>
+									<a href="##">宾伦正品 全自动机械...</a>
+								</dt>
+								<dd>
+									<a>
+										<img src="img/nabiao/list2.jpg"/>
+										<span>
+											<u>￥1970</u>
+											最近76人购买
+										</span>
+									</a>
+								</dd>
+							</dl>
+							<dl class="list3">
+								<dt>
+									<em>3</em>
+									<a href="##">宾伦正品 全自动机械...</a>
+								</dt>
+								<dd>
+									<a>
+										<img src="img/nabiao/list3.jpg"/>
+										<span>
+											<u>￥570</u>
+											最近65人购买
+										</span>
+									</a>
+								</dd>
+							</dl>
+							<dl class="list4">
+								<dt>
+									<em>4</em>
+									<a href="##">宾伦正品 全自动机械...</a>
+								</dt>
+								<dd>
+									<a>
+										<img src="img/nabiao/list4.jpg"/>
+										<span>
+											<u>￥360</u>
+											最近175人购买
+										</span>
+									</a>
+								</dd>
+							</dl>
+						</div>
+						<ul class="mcn">
+							<li>
+								<a href="##">
+									<img src="img/nabiao/01.jpg"/>
+									<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+									<p>
+										<span>宾伦价：</span>
+										<u>￥1154</u>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<img src="img/nabiao/02.jpg"/>
+									<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+									<p>
+										<span>宾伦价：</span>
+										<u>￥1154</u>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<img src="img/nabiao/03.jpg"/>
+									<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+									<p>
+										<span>宾伦价：</span>
+										<u>￥1154</u>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<img src="img/nabiao/04.jpg"/>
+									<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+									<p>
+										<span>宾伦价：</span>
+										<u>￥1154</u>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<img src="img/nabiao/05.jpg"/>
+									<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+									<p>
+										<span>宾伦价：</span>
+										<u>￥1154</u>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<img src="img/nabiao/06.jpg"/>
+									<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+									<p>
+										<span>宾伦价：</span>
+										<u>￥1154</u>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<img src="img/nabiao/07.jpg"/>
+									<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+									<p>
+										<span>宾伦价：</span>
+										<u>￥1154</u>
+									</p>
+								</a>
+							</li>
+							<li>
+								<a href="##">
+									<img src="img/nabiao/08.jpg"/>
+									<h4 class="over">宾伦手表精钢机械表男表 全自动机械手表 ...</h4>
+									<p>
+										<span>宾伦价：</span>
+										<u>￥1154</u>
+									</p>
+								</a>
+							</li>
+						</ul>
+						<div class="mr">
+							<ul>
+								<li><a href="##"><img src="img/nabiao/nan1.jpg"/></a></li>
+								<li><a href="##"><img src="img/nabiao/nan2.jpg"/></a></li>
+								<li><a href="##"><img src="img/nabiao/nan3.jpg"/></a></li>
+								<li><a href="##"><img src="img/nabiao/nan4.jpg"/></a></li>
+							</ul>
+						</div>
+					</div>
+					<div>
+						<a href="" class="ad"><img src="img/qinglvbiao/lvad.jpg"/></a>
+					</div>
+				</div>
+		</section>
+		<!--新闻-->
+		<section class="news margin">
+			<ul class="tab">
+				<li>媒体报道</li>
+				<li>名表社区</li>
+				<li>评价晒单</li>
+			</ul>
+			<div class="news-t">
+				<div>
+					<a href="##">
+						<img src="img/news01.jpg"/>
+						<p class="p1">国际模特大赛 宾伦展示云端上的时尚 </p>
+					</a>
+				</div>
+				<div>
+					<a href="##">
+						<img src="img/news02.jpg"/>
+						<p class="p2">宾伦爱心专递，情暖潮汕 </p>
+					</a>
+				</div>
+				<div>
+					<div>
+						<a href="##">
+							<img src="img/news03.jpg" class="i3"/>
+							<p class="p3">宾伦公益盛典</p>
+						</a>
+					<div class="te">
+						<a href="##">
+							<img src="img/news04.jpg" class="i4"/>
+							<p class="p4">宾伦百佳网商品牌</p>
+						</a>
+						<a href="##">
+							<img src="img/news05.jpg" class="i5"/>
+							<p class="p5">宾伦手表品牌证书</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--指南-->
+		<section id="help">	
+			<div class="help-l">
+				<img src="img/help.png" />
+				<div class="dingyue">
+					<input type="text" name="" placeholder="订阅最新促销消息" class="txt"/>
+					<input type="search" class="dy" value="订阅"/>
+				</div>
+			</div>
+	    	<div class="help-r">
+			      <dl class="">
+			        <dt>新手指南</dt>
+			        <dd><a href="##">注册新会员</a></dd>
+			        <dd><a href="##">如何订购</a></dd>
+			        <dd><a href="##">购物保障</a></dd>
+			        <dd><a href="##">常见手表问题</a></dd>
+			      </dl>
+			      <dl class="">
+			        <dt>如何支付</dt>
+			        <dd><a href="##">支付方式</a></dd>
+			        <dd><a href="##">分期付款</a></dd>
+			        <dd><a href="##">发票说明</a></dd>
+			        <dd><a href="##">支付问题</a></dd>
+			      </dl>
+			      <dl class="">
+			        <dt>购物配送</dt>
+			        <dd><a href="##">包裹签收</a></dd>
+			        <dd><a href="##">配送方式</a></dd>
+			        <dd><a href="##">配送说明</a></dd>
+			        <dd><a href="##">自提流程</a></dd>
+			      </dl>
+			      <dl class="">
+			        <dt>服务保障</dt>
+			        <dd><a href="##">服务承诺</a></dd>
+			        <dd><a href="##">退换流程</a></dd>
+			        <dd><a href="##">七天退换说明</a></dd>
+			        <dd><a href="##">保修说明</a></dd>
+			      </dl>
+			      <dl class="">
+			        <dt>帮助中心</dt>
+			        <dd><a href="##">人才招聘</a></dd>
+			        <dd><a href="##">商务合作</a></dd>
+			        <dd><a href="##">分销加盟</a></dd>
+			        <dd><a href="##">关于我们</a></dd>
+			      </dl>
+	      </div>
+		</section>
+		<!--友情链接-->
+		<section id="friend" class="margin">
+			<ul class="menu">
+			    <li>友情链接</li>
+			    <li>合作网站</li>
+			    <li>联系QQ:2816456016</li>
+			</ul>
+		    <div class="num">
+		        <a href="##">零食</a> |
+		        <a href="##">史泰博</a> |
+		        <a href="##">品尚红酒</a> |
+		        <a href="##">厦门特产</a> |
+		        <a href="##">易迅优惠券</a> |
+		        <a href="##">电脑配件</a> |
+		        <a href="##">女朋友生日礼物</a> |
+		        <a href="##">收藏资讯</a> |
+		        <a href="##">PClady手表</a> |
+		        <a href="##">中国礼品网</a> |
+		        <a href="##">生活网</a> |
+		        <a href="##">奢品</a> |
+		        <a href="##">艺术网</a> |
+		        <a href="##">格拉王子</a> |
+		        <a href="##">1元云购</a> |
+		        <a href="##">绿茶</a> |
+		        <a href="##">批发网</a> |
+		        <a href="##">中国钟表网</a> |
+		        <a href="##">农产品商城</a> |
+		        <a href="##">优购物</a> |
+		        <a href="##">全球采购网</a> |
+		        <a href="##">女士包包团购</a> |
+		        <a href="##">手表网</a> |
+		        <a href="##">包包</a> |
+		        <a href="##">匹克官方网店</a> |
+		        <a href="##">一折网</a> |
+		        <a href="##">世界名表</a> |
+		        <a href="##">结婚戒指</a> |
+		        <a href="##">品牌特卖</a> |
+		        <a href="##">手表</a> |
+		        <a href="##">红酒品牌</a> |
+		        <a href="##">跑步机</a> |
+		        <a href="##">匹克官网</a> |
+		        <a href="##">唯品会品牌折扣网</a> |
+		        <a href="##">户外装备</a> |
+		        <a href="##">饰品礼品</a> |
+		        <a href="##">美瞳</a> |
+		        <a href="##">商机网</a> |
+		        <a href="##">世界名表</a> |
+		        <a href="##">型尚网</a> |
+		        <a href="##">钻石戒指</a> |
+		        <a href="##">集美家居</a> |
+		        <a href="##">收藏品</a> |
+		        <a href="##">纯棉家居家纺</a> |
+		        <a href="##">女装搭配</a> |
+		        <a href="##">化妆品</a> |
+		        <a href="##">奢侈品</a> |
+		        <a href="##">更多链接</a>
+		    </div>
+		    <div id="youqing_num1" class="youqinglink" style="display: none;">
+		        <a href="##">和田玉</a> |
+		        <a href="##">女性时尚网</a> |
+		        <a href="##">御府和田玉</a> |
+		        <a href="##">珠宝黄金网</a> |
+		        <a href="##">移民</a> |
+		        <a href="##">活动网</a> |
+		        <a href="##">好乐买鞋城</a> |
+		        <a href="##">杭州女装网</a> |
+		        <a href="##">麻豆网</a> |
+		        <a href="##">服装搭配</a> |
+		        <a href="##">中国企业网</a> |
+		        <a href="##">结婚戒指</a> |
+		        <a href="##">民族风女装</a> |
+		    </div>
+		</section>
+		<!--页脚-->
+		<section id="foot" class="margin">
+			<div class="info">
+			    <p class="">2009-2018 宾伦名表城 - 手表商城网站、让您无忧购表! 版权所有，并保留所有权利&nbsp;&nbsp;ICP备案证书号：<a href="##">粤ICP备12002583号-1</a>&nbsp;&nbsp;</p>
+			    <p>广州市易赢贸易有限公司 地址：广州市白云区机场路72号景豪商务大厦3楼</p>
+			</div>
+			<div>
+				<img src="img/xiaofei/01.gif"/>
+				<img src="img/xiaofei/02.gif"/>
+				<img src="img/xiaofei/03.gif"/>
+				<img src="img/xiaofei/05.gif"/>
+				<img src="img/xiaofei/04.gif"/>
+				<img src="img/xiaofei/06.gif"/>
+			</div>
+			<div>
+				<img src="img/xiaofei/pic.gif"/>
+			</div>
+		</section>
+		<!--楼梯-->
+		<section id="floor">
+			<div class="floor1">
+				<i class="i1"></i>
+				<i class="i2"></i>
+				<i class="i3"></i>
+			</div>
+			<div class="floor2">
+				<i class="i4"></i>
+				<i class="i5">
+					<img src="img/kf_weixin.gif"/>
+				</i>
+				<i class="i6"></i>
+			</div>
+		</section>
+	</body>
+	<script src="libs/jquery.1.12.4.js"></script>
+	<script src="libs/jquery.banner.2.1.2.js"></script>
+	<script src="js/index.js"></script>
+				
+</html>
